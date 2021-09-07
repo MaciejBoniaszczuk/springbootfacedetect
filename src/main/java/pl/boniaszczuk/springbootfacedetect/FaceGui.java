@@ -39,7 +39,7 @@ public class FaceGui extends VerticalLayout {
         refreshButton.addClickListener(c -> UI.getCurrent().getPage().reload());
 
 
-        add(textField,button,grid,refreshButton);
+        add(textField,button,refreshButton,grid);
 
 
     }
